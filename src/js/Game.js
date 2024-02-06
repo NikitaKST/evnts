@@ -1,11 +1,11 @@
-import GameField from './Field.js';
+import GameField from './Field';
 
 export default class GameManager {
-    constructor(fields) {
+  constructor(fields) {
     this.gameField = new GameField(fields);
-}
+  }
 
-    start() {
-        this.gameField.moveGoblin();
-    }
+  start() {
+    this.gameField.moveGoblin();
+  }
 }

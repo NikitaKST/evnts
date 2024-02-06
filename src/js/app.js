@@ -1,12 +1,5 @@
-import Field from './Board';
+import GameManager from './Game.js';
 
-const cells = Array.from(document.querySelectorAll('.cell'));
-
-const field = new Field(cells);
-
-document.addEventListener('DOMContentLoaded', () => {
-  setInterval(() => {
-    field.deleteActiveClass();
-    field.addActiveClass();
-  }, 1000);
-});
+const gameFields = Array.from(document.querySelectorAll('.game-field'));
+const gameManager = new GameManager(gameFields);
+gameManager.start();

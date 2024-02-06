@@ -1,0 +1,8 @@
+{
+  "name": "NikitaKST",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NikitaKST/evnts.git",
+  "author": "NikitaKST <8172535@google.com>",
+  "license": "MIT"
+}
